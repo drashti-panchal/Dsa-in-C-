@@ -5,6 +5,8 @@ using namespace std;
 int main(){
 
 	// Stack is also a container which uses LIFO property.
+
+	//All the operations in stack have time complexity 0(n)
 	stack<int> s;
 	s.push(1);
 	s.push(2);
