@@ -8,6 +8,8 @@ int main(){
 	//All the operations in priority queue have time complexity 0(logn)
 	//It does not allows you to iterate like vector.
 
+
+	//ALso known as max heap
 	priority_queue<int> p;
 	p.push(1);//{1}
 	p.push(2);//{2}
@@ -20,6 +22,7 @@ int main(){
 
 	//Even minimum priority queue can be made.
 
+	//ALso known as min heap
 	priority_queue<int,vector<int>,greater<int> > pq;
 	pq.push(1);//{1}
 	pq.push(2);//{1,2}
